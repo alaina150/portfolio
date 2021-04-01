@@ -12,12 +12,12 @@ body{
     position: absolute;
     overflow: hidden;
     height: 800px;
-    color: aquamarine;
+    color: blue;
     left: 0;
     top: 0;
     right: 0;
     opacity:0.83;
-    background: blue;
+    background: aquamarine;
     display: table;
     width: 100%;
     height: 100%;
@@ -81,4 +81,13 @@ p {
 }
 .links:hover{
     background-color: antiquewhite;
+}
+html{
+scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+.article:hover{
+color: fuchsia;
 }
